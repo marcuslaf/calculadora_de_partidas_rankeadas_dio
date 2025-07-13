@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.card {
+    background: white;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #555;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+input[type="number"]:focus {
+    outline: none;
+    border-color: #667eea;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+button:hover {
+    transform: translateY(-2px);
+}
+
+button:active {
+    transform: translateY(0);
+}
+
+.result {
+    margin-top: 30px;
+    padding: 25px;
+    background: #f8f9fa;
+    border-radius: 10px;
+    border-left: 5px solid #667eea;
+}
+
+.result.hidden {
+    display: none;
+}
+
+.result h3 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.result-content {
+    display: grid;
+    gap: 15px;
+}
+
+.saldo,
+.nivel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: white;
+    border-radius: 8px;
+}
+
+.label {
+    font-weight: 600;
+    color: #555;
+}
+
+.value {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.nivel-badge {
+    padding: 8px 16px;
+    border-radius: 20px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.message {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    margin-top: 15px;
+    padding: 15px;
+    background: white;
+    border-radius: 8px;
+}
+
+.ranking-table {
+    background: white;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.ranking-table h3 {
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background: #f8f9fa;
+    font-weight: 600;
+    color: #555;
+}
+
+/* Cores dos níveis */
+.ferro {
+    background: #8b4513;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+.bronze {
+    background: #cd7f32;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+.prata {
+    background: #c0c0c0;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+.ouro {
+    background: #ffd700;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+.diamante {
+    background: #b9f2ff;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+.lendario {
+    background: #ff6b35;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+.imortal {
+    background: #8a2be2;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .card,
+    .ranking-table {
+        padding: 20px;
+    }
+
+    .saldo,
+    .nivel {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+}
