@@ -1,47 +1,30 @@
-# 🏆 Sistema de Ranking de Jogadores
+# Calculadora de Partidas Ranqueadas
+# Ranked Matches Calculator
 
-Um sistema interativo para calcular o nível de jogadores baseado em suas vitórias e derrotas, com uma interface amigável e visualmente atraente.
+**Sistema de ranking de jogadores baseado em partidas ranqueadas. Calcula o nível do jogador (Ferro a Imortal) com base no saldo de vitórias. Desafio DIO.**
 
-## ✨ Funcionalidades
+**Player ranking system based on ranked matches. Calculates player level (Iron to Immortal) based on win balance. DIO challenge.**
 
-- Calcula o saldo de vitórias (vitórias - derrotas)
-- Determina o nível do jogador baseado no saldo
-- Exibe o resultado com cores temáticas para cada nível
-- Interface responsiva que funciona em dispositivos móveis
-- Tabela de referência dos rankings disponível
-- Efeitos visuais e transições suaves
+---
 
-## 🎮 Como Usar
+## Tecnologias | Technologies
 
-1. Insira o número de vitórias
-2. Insira o número de derrotas
-3. Clique em "Calcular Ranking"
-4. Veja o resultado com seu saldo e nível
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
 
-## 📊 Tabela de Rankings
+## Funcionalidades | Features
 
-| Saldo de Vitórias | Nível     |
-|-------------------|-----------|
-| Menos de 10       | Ferro     |
-| 11 - 20           | Bronze    |
-| 21 - 50           | Prata     |
-| 51 - 80           | Ouro      |
-| 81 - 90           | Diamante  |
-| 91 - 100          | Lendário  |
-| 101+              | Imortal   |
+- Cálculo de saldo de vitórias | Win balance calculation
+- Sistema de níveis (Ferro a Imortal) | Level system (Iron to Immortal)
+- Lógica condicional aplicada | Applied conditional logic
 
-## 🛠️ Tecnologias Utilizadas
+---
 
-- HTML5
-- CSS3 (com Flexbox e Grid)
-- JavaScript Vanilla
-- Design responsivo
-- Gradientes e efeitos visuais modernos
+## Autor | Author
 
-## 🚀 Como Executar
+**Marcus Lafaiete** — [@marcuslaf](https://github.com/marcuslaf)
 
-1. Clone o repositório:
-   ```bash
-   git remote add origin https://github.com/Marcuslaf/calculadora_de_partidas_rankeadas_dio.git
-   ```
-2. Abra o arquivo index.html no seu navegador favorito
+---
+
+<div align="center">
+  <img src="https://img.shields.io/badge/status-conclu%C3%ADdo-success?style=for-the-badge"/>
+</div>
